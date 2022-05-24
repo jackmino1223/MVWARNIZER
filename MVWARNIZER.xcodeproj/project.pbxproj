@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335FE0C620E66A9600383CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335FE0C520E66A9600383CB3 /* AppDelegate.swift */; };
+		335FE0C820E66A9600383CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335FE0C720E66A9600383CB3 /* ViewController.swift */; };
+		335FE0CB20E66A9600383CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335FE0C920E66A9600383CB3 /* Main.storyboard */; };
+		335FE0CD20E66A9700383CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335FE0CC20E66A9700383CB3 /* Assets.xcassets */; };
+		335FE0D020E66A9700383CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335FE0CE20E66A9700383CB3 /* LaunchScreen.storyboard */; };
+		903815E8E76FE80C2624285A /* Pods_MVWARNIZER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABBB2C5D8B08AE408948738 /* Pods_MVWARNIZER.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		335FE0C220E66A9600383CB3 /* MVWARNIZER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVWARNIZER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335FE0C520E66A9600383CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		335FE0C720E66A9600383CB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		335FE0CA20E66A9600383CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		335FE0CC20E66A9700383CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335FE0CF20E66A9700383CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		335FE0D120E66A9700383CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E62EACBFF764F7DED03C4D /* Pods-MVWARNIZER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVWARNIZER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVWARNIZER/Pods-MVWARNIZER.debug.xcconfig"; sourceTree = "<group>"; };
+		74A28A9982DFB68F17FDDD75 /* Pods-MVWARNIZER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVWARNIZER.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVWARNIZER/Pods-MVWARNIZER.release.xcconfig"; sourceTree = "<group>"; };
+		FABBB2C5D8B08AE408948738 /* Pods_MVWARNIZER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVWARNIZER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335FE0BF20E66A9600383CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903815E8E76FE80C2624285A /* Pods_MVWARNIZER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CC20C15AF51945BD1369DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FABBB2C5D8B08AE408948738 /* Pods_MVWARNIZER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		335FE0B920E66A9600383CB3 = {
+			isa = PBXGroup;
+			children = (
+				335FE0C420E66A9600383CB3 /* MVWARNIZER */,
+				335FE0C320E66A9600383CB3 /* Products */,
+				9E8C8D63C0E239F2167711BB /* Pods */,
+				04CC20C15AF51945BD1369DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		335FE0C320E66A9600383CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335FE0C220E66A9600383CB3 /* MVWARNIZER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335FE0C420E66A9600383CB3 /* MVWARNIZER */ = {
+			isa = PBXGroup;
+			children = (
+				335FE0C520E66A9600383CB3 /* AppDelegate.swift */,
+				335FE0C720E66A9600383CB3 /* ViewController.swift */,
+				335FE0C920E66A9600383CB3 /* Main.storyboard */,
+				335FE0CC20E66A9700383CB3 /* Assets.xcassets */,
+				335FE0CE20E66A9700383CB3 /* LaunchScreen.storyboard */,
+				335FE0D120E66A9700383CB3 /* Info.plist */,
+			);
+			path = MVWARNIZER;
+			sourceTree = "<group>";
+		};
+		9E8C8D63C0E239F2167711BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42E62EACBFF764F7DED03C4D /* Pods-MVWARNIZER.debug.xcconfig */,
+				74A28A9982DFB68F17FDDD75 /* Pods-MVWARNIZER.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335FE0C120E66A9600383CB3 /* MVWARNIZER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335FE0D420E66A9700383CB3 /* Build configuration list for PBXNativeTarget "MVWARNIZER" */;
+			buildPhases = (
+				F9F204B14E7620D0FC25A954 /* [CP] Check Pods Manifest.lock */,
+				335FE0BE20E66A9600383CB3 /* Sources */,
+				335FE0BF20E66A9600383CB3 /* Frameworks */,
+				335FE0C020E66A9600383CB3 /* Resources */,
+				D7915E15C28D3568B7D48D1D /* [CP] Embed Pods Frameworks */,
+				19F37507FEB21389F6300EC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVWARNIZER;
+			productName = MVWARNIZER;
+			productReference = 335FE0C220E66A9600383CB3 /* MVWARNIZER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335FE0BA20E66A9600383CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Han;
+				TargetAttributes = {
+					335FE0C120E66A9600383CB3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 335FE0BD20E66A9600383CB3 /* Build configuration list for PBXProject "MVWARNIZER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335FE0B920E66A9600383CB3;
+			productRefGroup = 335FE0C320E66A9600383CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335FE0C120E66A9600383CB3 /* MVWARNIZER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335FE0C020E66A9600383CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335FE0D020E66A9700383CB3 /* LaunchScreen.storyboard in Resources */,
+				335FE0CD20E66A9700383CB3 /* Assets.xcassets in Resources */,
+				335FE0CB20E66A9600383CB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19F37507FEB21389F6300EC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVWARNIZER/Pods-MVWARNIZER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7915E15C28D3568B7D48D1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVWARNIZER/Pods-MVWARNIZER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ASExtendedCircularMenu/ASExtendedCircularMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ASExtendedCircularMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVWARNIZER/Pods-MVWARNIZER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F204B14E7620D0FC25A954 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVWARNIZER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335FE0BE20E66A9600383CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335FE0C820E66A9600383CB3 /* ViewController.swift in Sources */,
+				335FE0C620E66A9600383CB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		335FE0C920E66A9600383CB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335FE0CA20E66A9600383CB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		335FE0CE20E66A9700383CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335FE0CF20E66A9700383CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335FE0D220E66A9700383CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		335FE0D320E66A9700383CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335FE0D520E66A9700383CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E62EACBFF764F7DED03C4D /* Pods-MVWARNIZER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4URJ54RTED;
+				INFOPLIST_FILE = MVWARNIZER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Han.MVWARNIZER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		335FE0D620E66A9700383CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A28A9982DFB68F17FDDD75 /* Pods-MVWARNIZER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4URJ54RTED;
+				INFOPLIST_FILE = MVWARNIZER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Han.MVWARNIZER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335FE0BD20E66A9600383CB3 /* Build configuration list for PBXProject "MVWARNIZER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335FE0D220E66A9700383CB3 /* Debug */,
+				335FE0D320E66A9700383CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335FE0D420E66A9700383CB3 /* Build configuration list for PBXNativeTarget "MVWARNIZER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335FE0D520E66A9700383CB3 /* Debug */,
+				335FE0D620E66A9700383CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335FE0BA20E66A9600383CB3 /* Project object */;
+}
